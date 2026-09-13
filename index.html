@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional car wash, interior cleaning and vehicle detailing services.">
+  <meta name="theme-color" content="#0b0f14">
+  <title>ShineWorks Car Wash | Professional Car Care</title>
+  <link rel="stylesheet" href="index.css">
+<base target="_blank">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="ShineWorks home">
+        <span class="logo-mark">SW</span>
+        <span>ShineWorks</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#values">Why Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Book a Wash</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#values">Why Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="mobile-book" href="#contact">Book a Wash</a>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <a class="whatsapp-float"
+     href="https://wa.me/260975487259?text=Hello%20ShineWorks%2C%20I%27d%20like%20to%20book%20a%20car%20wash."
+     target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+  </a>
+
+  <!-- Hero Carousel -->
+  <section id="home" class="hero">
+    <div class="carousel-container">
+
+      <article class="carousel-slide active"
+        style="background-image:url('https://kimi-web-img.kimi.ai/img/billyscarwash.co.uk/011a2681420c90d24d68298708627a50238be725.png');">
+        <div class="slide-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-text slide-in-left">
+            <span class="eyebrow">PROFESSIONAL CAR CARE</span>
+            <h1>Clean Outside.<br><span>Fresh Inside.</span></h1>
+            <p>Professional car washing and detailing that gives your vehicle the care, finish and attention it deserves.</p>
+            <div class="hero-actions">
+              <a href="#contact" class="cta-button">Book a Wash</a>
+              <a href="#services" class="ghost-button">View Services</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="carousel-slide"
+        style="background-image:url('https://kimi-web-img.kimi.ai/img/cdn.shopify.com/165db36831e5d41635a44b7008fffde9c3614d77.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-text slide-in-right">
+            <span class="eyebrow">EXTERIOR DETAILING</span>
+            <h1>Bring Back<br><span>That Shine.</span></h1>
+            <p>Remove road grime, dust and everyday dirt with a careful exterior wash and professional finishing treatment.</p>
+            <div class="hero-actions">
+              <a href="#packages" class="cta-button">See Packages</a>
+              <a href="#contact" class="ghost-button">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="carousel-slide"
+        style="background-image:url('https://kimi-web-img.kimi.ai/img/www.simoniz.uk/d1344fb4a6979ba0857db223ea265ee4209e64ef.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-text slide-in-left">
+            <span class="eyebrow">INTERIOR CLEANING</span>
+            <h1>Fresh Cabin.<br><span>Better Drive.</span></h1>
+            <p>Refresh your vehicle's interior with detailed vacuuming, dashboard care, glass cleaning and deep-cleaning options.</p>
+            <div class="hero-actions">
+              <a href="#services" class="cta-button">Explore Detailing</a>
+              <a href="#contact" class="ghost-button">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="carousel-slide"
+        style="background-image:url('https://kimi-web-img.kimi.ai/img/www.superiorcarwashsupply.com/9edec9ab6b62f652d8235bb648e2ad8bcfae25ff.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-text slide-in-right">
+            <span class="eyebrow">PREMIUM VEHICLE CARE</span>
+            <h1>More Than<br><span>A Car Wash.</span></h1>
+            <p>Choose a complete vehicle refresh combining exterior cleaning, interior detailing and finishing touches.</p>
+            <div class="hero-actions">
+              <a href="#packages" class="cta-button">Choose Your Package</a>
+              <a href="#contact" class="ghost-button">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <button class="carousel-nav carousel-prev" id="prevSlide" aria-label="Previous slide">‹</button>
+      <button class="carousel-nav carousel-next" id="nextSlide" aria-label="Next slide">›</button>
+
+      <div class="carousel-controls" id="carouselDots" aria-label="Carousel controls"></div>
+      <div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-kicker">ABOUT US</span>
+        <h2>We don't just wash cars.<br><span>We care for them.</span></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text slide-in-left">
+          <p class="lead">At <strong>ShineWorks Car Wash</strong>, we believe a clean vehicle should feel as good as it looks.</p>
+          <p>We provide professional car washing and detailing services for drivers who value quality, convenience and attention to detail. From a quick maintenance wash to a complete interior and exterior detail, every vehicle receives careful treatment.</p>
+          <p>Our goal is simple: deliver a cleaner, fresher and better-presented vehicle while making the car-care experience easy for you.</p>
+          <a href="#contact" class="text-link">Book your next wash <span>→</span></a>
+        </div>
+
+        <div class="about-image scale-in">
+          <img src="https://kimi-web-img.kimi.ai/img/www.chipsaway.co.uk/ee65c547a77bf50b6b73cb34156f4d9374aaa5a0.jpg" alt="Professional vehicle cleaning with microfiber cloth">
+          <div class="image-badge">
+            <strong>CARE</strong>
+            <span>DETAIL • SHINE • PROTECT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section id="values" class="section values-section">
+    <div class="container">
+      <div class="section-heading center fade-in">
+        <span class="section-kicker">WHY CHOOSE US</span>
+        <h2>The standard is in<br><span>the details.</span></h2>
+        <p>Professional service built around quality cleaning, careful workmanship and customer satisfaction.</p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card fade-in">
+          <div class="value-number">01</div>
+          <div class="value-icon">✦</div>
+          <h3>Quality</h3>
+          <p>We take the time to clean thoroughly rather than rushing through the job.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-number">02</div>
+          <div class="value-icon">◌</div>
+          <h3>Attention to Detail</h3>
+          <p>We focus on the small areas and finishing touches that make a noticeable difference.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-number">03</div>
+          <div class="value-icon">✓</div>
+          <h3>Reliable Service</h3>
+          <p>Clear packages, straightforward booking and a consistent professional experience.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-number">04</div>
+          <div class="value-icon">↗</div>
+          <h3>Convenience</h3>
+          <p>Book directly by phone or WhatsApp and choose the service that fits your vehicle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-kicker">OUR SERVICES</span>
+        <h2>Car care for<br><span>every need.</span></h2>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card scale-in">
+          <div class="service-image">
+            <img src="https://kimi-web-img.kimi.ai/img/billyscarwash.co.uk/011a2681420c90d24d68298708627a50238be725.png" alt="Exterior car wash with pressure washer">
+            <span class="service-tag">POPULAR</span>
+          </div>
+          <div class="service-body">
+            <span class="service-index">01 / EXTERIOR</span>
+            <h3>Exterior Car Wash</h3>
+            <p>A thorough exterior clean for everyday maintenance and a fresh finish.</p>
+            <ul class="service-features">
+              <li>Body wash & rinse</li>
+              <li>Wheel & tyre cleaning</li>
+              <li>Exterior drying</li>
+              <li>Final quality check</li>
+            </ul>
+            <a href="#contact" class="service-link">Book this service <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card scale-in">
+          <div class="service-image">
+            <img src="https://kimi-web-img.kimi.ai/img/cdn.shopify.com/165db36831e5d41635a44b7008fffde9c3614d77.jpg" alt="Foam wash car cleaning">
+          </div>
+          <div class="service-body">
+            <span class="service-index">02 / FOAM WASH</span>
+            <h3>Foam Wash</h3>
+            <p>Deep foam cleaning that lifts dirt and grime for a safer, more effective wash.</p>
+            <ul class="service-features">
+              <li>Thick foam application</li>
+              <li>Dirt loosening pre-wash</li>
+              <li>Gentle on paintwork</li>
+              <li>Complete rinse</li>
+            </ul>
+            <a href="#contact" class="service-link">Book this service <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card scale-in">
+          <div class="service-image">
+            <img src="https://kimi-web-img.kimi.ai/img/www.simoniz.uk/d1344fb4a6979ba0857db223ea265ee4209e64ef.jpg" alt="Car interior cleaning with vacuum">
+          </div>
+          <div class="service-body">
+            <span class="service-index">03 / INTERIOR</span>
+            <h3>Interior Cleaning</h3>
+            <p>Refresh the cabin and remove dust, dirt and everyday buildup.</p>
+            <ul class="service-features">
+              <li>Full interior vacuum</li>
+              <li>Dashboard & trim care</li>
+              <li>Seat & carpet cleaning</li>
+              <li>Interior glass</li>
+            </ul>
+            <a href="#contact" class="service-link">Book this service <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card scale-in">
+          <div class="service-image">
+            <img src="https://kimi-web-img.kimi.ai/img/s25180.pcdn.co/6045a3ffd478f022e919c88e3ae25a1145acd37d.jpeg" alt="Professional car paint protection">
+          </div>
+          <div class="service-body">
+            <span class="service-index">04 / PROTECTION</span>
+            <h3>Paint Protection & Finishing</h3>
+            <p>Protect and enhance your vehicle's paint with professional finishing treatments.</p>
+            <ul class="service-features">
+              <li>Paint protection application</li>
+              <li>Gloss enhancement</li>
+              <li>Surface sealing</li>
+              <li>Long-lasting finish</li>
+            </ul>
+            <a href="#contact" class="service-link">Book this service <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card scale-in">
+          <div class="service-image">
+            <img src="https://kimi-web-img.kimi.ai/img/www.breakerlink.com/ee85db0a764c7806dae758dee2a06ba96393ba08.jpg" alt="Wheel and tyre cleaning">
+          </div>
+          <div class="service-body">
+            <span class="service-index">05 / WHEELS</span>
+            <h3>Wheel & Tyre Care</h3>
+            <p>Dedicated wheel and tyre cleaning to improve the finished appearance.</p>
+            <ul class="service-features">
+              <li>Rim cleaning</li>
+              <li>Tyre cleaning</li>
+              <li>Road-grime removal</li>
+              <li>Tyre dressing & shine</li>
+            </ul>
+            <a href="#contact" class="service-link">Book this service <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card scale-in">
+          <div class="service-image">
+            <img src="https://kimi-web-img.kimi.ai/img/www.shinewashtec.com/253f6303733a326b65050d8450eaeea73b3e685c.webp" alt="Car underbody wash">
+          </div>
+          <div class="service-body">
+            <span class="service-index">06 / UNDERBODY</span>
+            <h3>Underbody Wash</h3>
+            <p>Clean the underside of your vehicle to remove salt, dirt and road debris.</p>
+            <ul class="service-features">
+              <li>Undercarriage spray</li>
+              <li>Salt & grime removal</li>
+              <li>Chassis rinse</li>
+              <li>Corrosion protection</li>
+            </ul>
+            <a href="#contact" class="service-link">Request a quote <span>→</span></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages -->
+  <section id="packages" class="section packages">
+    <div class="container">
+      <div class="section-heading center fade-in">
+        <span class="section-kicker">PACKAGES</span>
+        <h2>Choose your level<br><span>of clean.</span></h2>
+        <p>Three carefully designed packages to match your car care needs and budget.</p>
+      </div>
+
+      <div class="packages-grid">
+
+        <article class="package-card fade-in">
+          <div class="package-top">
+            <span class="package-label">ESSENTIAL</span>
+            <h3>Basic Wash</h3>
+            <p>Perfect for regular maintenance and a quick refresh.</p>
+          </div>
+          <div class="price"><small>ZMW</small> 50</div>
+          <ul>
+            <li>Exterior wash</li>
+            <li>Foam wash</li>
+            <li>Rinse</li>
+            <li>Automatic dry</li>
+          </ul>
+          <a href="#contact" class="package-button">Choose Basic</a>
+        </article>
+
+        <article class="package-card featured fade-in">
+          <div class="popular-pill">MOST POPULAR</div>
+          <div class="package-top">
+            <span class="package-label">COMPLETE</span>
+            <h3>Premium Wash</h3>
+            <p>Everything in Basic plus extra care for wheels, body and finish.</p>
+          </div>
+          <div class="price"><small>ZMW</small> 120</div>
+          <ul>
+            <li>Everything in Basic Wash</li>
+            <li>Wheel & tyre cleaning</li>
+            <li>Underbody wash</li>
+            <li>Wax application</li>
+            <li>Spot-free rinse</li>
+            <li>Tyre shine</li>
+          </ul>
+          <a href="#contact" class="package-button">Choose Premium</a>
+        </article>
+
+        <article class="package-card fade-in">
+          <div class="package-top">
+            <span class="package-label">ULTIMATE</span>
+            <h3>Full Detail</h3>
+            <p>The complete vehicle transformation inside and out.</p>
+          </div>
+          <div class="price"><small>ZMW</small> 280</div>
+          <ul>
+            <li>Everything in Premium Wash</li>
+            <li>Interior vacuum</li>
+            <li>Dashboard & interior cleaning</li>
+            <li>Mat cleaning</li>
+            <li>Interior fragrance</li>
+            <li>Paint protection / finishing</li>
+          </ul>
+          <a href="#contact" class="package-button">Choose Full Detail</a>
+        </article>
+
+      </div>
+
+      <div class="pricing-note fade-in">
+        <strong>Need something different?</strong>
+        SUV, pickup, van, truck and heavily soiled vehicles may require a custom quote.
+        <a href="#contact">Ask us for a quote →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet CTA -->
+  <section class="fleet-section">
+    <div class="fleet-overlay"></div>
+    <div class="container fleet-content fade-in">
+      <span class="section-kicker">FLEET SERVICES</span>
+      <h2>Keep your business<br><span>vehicles looking professional.</span></h2>
+      <p>We can provide regular cleaning solutions for company vehicles, delivery fleets, taxis, rentals and other commercial vehicles.</p>
+      <a href="#contact" class="cta-button">Ask About Fleet Services</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-kicker">BOOKING & CONTACT</span>
+        <h2>Ready for a<br><span>cleaner ride?</span></h2>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info slide-in-left">
+          <h3>Let's get your car clean.</h3>
+          <p>Send us your preferred service, vehicle type and booking date. We'll confirm availability with you.</p>
+
+          <a class="contact-item" href="tel:+260975487259">
+            <span class="contact-icon">☎</span>
+            <div><small>PHONE</small><strong>+260 975 487 259</strong></div>
+          </a>
+
+          <a class="contact-item"
+             href="https://wa.me/260975487259?text=Hello%20ShineWorks%2C%20I%27d%20like%20to%20book%20a%20car%20wash."
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">◉</span>
+            <div><small>WHATSAPP</small><strong>Chat with us</strong></div>
+          </a>
+
+          <div class="contact-item">
+            <span class="contact-icon">⌖</span>
+            <div><small>LOCATION</small><strong>[Your Car Wash Location]</strong></div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">◷</span>
+            <div><small>OPENING HOURS</small><strong>Mon – Sat: 08:00 – 18:00</strong></div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="TikTok">♪</a>
+          </div>
+        </div>
+
+        <form class="contact-form scale-in" id="bookingForm">
+          <div class="form-row">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" placeholder="+260..." required>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              Vehicle Type
+              <select name="vehicle" required>
+                <option value="">Select vehicle</option>
+                <option>Car / Sedan</option>
+                <option>SUV</option>
+                <option>Pickup</option>
+                <option>Van</option>
+                <option>Truck</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Service
+              <select name="service" required>
+                <option value="">Select service</option>
+                <option>Basic Wash</option>
+                <option>Premium Wash</option>
+                <option>Full Detail</option>
+                <option>Interior Cleaning</option>
+                <option>Wheel & Tyre Care</option>
+                <option>Underbody Wash</option>
+                <option>Paint Protection</option>
+                <option>Fleet Service</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              Preferred Date
+              <input type="date" name="date" id="bookingDate" required>
+            </label>
+            <label>
+              Preferred Time
+              <input type="time" name="time" required>
+            </label>
+          </div>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us anything we should know about your vehicle..."></textarea>
+          </label>
+
+          <button type="submit" class="form-submit">
+            Send Booking Request <span>→</span>
+          </button>
+
+          <p class="form-note">Submitting opens WhatsApp with your booking details. No information is stored by this demo form.</p>
+          <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-main">
+      <div>
+        <a href="#home" class="logo footer-logo"><span class="logo-mark">SW</span><span>ShineWorks</span></a>
+        <p>Professional car wash & detailing services.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-book">
+        <span>READY WHEN YOU ARE.</span>
+        <a href="#contact">Book a Wash →</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> ShineWorks Car Wash. All rights reserved.</span>
+      <span>Professional care. Every wash.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
