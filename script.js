@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = data.get("message").trim();
 
     const bookingMessage =
-`Hello ShineWorks! I'd like to make a booking.
+`Hello Mukonza! I'd like to make a booking.
 
 Name: ${name}
 Phone: ${phone}
@@ -150,7 +150,7 @@ Preferred date: ${date}
 Preferred time: ${time}
 ${message ? `Message: ${message}` : ""}`;
 
-    const whatsappNumber = "260975487259";
+    const whatsappNumber = "260968288810";
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(bookingMessage)}`;
 
     status.style.display = "block";
